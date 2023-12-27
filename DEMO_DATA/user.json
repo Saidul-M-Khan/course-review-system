@@ -1,0 +1,62 @@
+[
+  {
+    "username": "john_doe",
+    "email": "john@example.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    "username": "jane_doe",
+    "email": "jane@example.com",
+    "password": "abcdef",
+    "role": "admin"
+  },
+  {
+    "username": "alice_smith",
+    "email": "alice@example.com",
+    "password": "qwerty",
+    "role": "user"
+  },
+  {
+    "username": "bob_jones",
+    "email": "bob@example.com",
+    "password": "pass123",
+    "role": "admin"
+  },
+  {
+    "username": "emma_watson",
+    "email": "emma@example.com",
+    "password": "p@ssw0rd",
+    "role": "user"
+  },
+  {
+    "username": "michael_jackson",
+    "email": "michael@example.com",
+    "password": "kingofpop",
+    "role": "admin"
+  },
+  {
+    "username": "susan_anderson",
+    "email": "susan@example.com",
+    "password": "sunshine",
+    "role": "user"
+  },
+  {
+    "username": "david_smith",
+    "email": "david@example.com",
+    "password": "letmein",
+    "role": "admin"
+  },
+  {
+    "username": "olivia_perez",
+    "email": "olivia@example.com",
+    "password": "welcome",
+    "role": "user"
+  },
+  {
+    "username": "charlie_brown",
+    "email": "charlie@example.com",
+    "password": "peanuts",
+    "role": "admin"
+  }
+]

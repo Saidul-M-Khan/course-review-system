@@ -1,0 +1,131 @@
+[
+  {
+    "title": "Introduction to Programming",
+    "instructor": "John Doe",
+    "categoryId": "65772a74855a0b6e2c9ad918",
+    "price": 29.99,
+    "tags": [
+      {
+        "name": "JavaScript",
+        "isDeleted": false
+      },
+      {
+        "name": "Beginner",
+        "isDeleted": false
+      }
+    ],
+    "startDate": "2023-01-15",
+    "endDate": "2023-03-01",
+    "language": "English",
+    "provider": "Coding Academy",
+    "details": {
+      "level": "Beginner",
+      "description": "This course is an introduction to programming using JavaScript. No prior experience is required."
+    }
+  },
+  {
+    "title": "Machine Learning Fundamentals",
+    "instructor": "Jane Smith",
+    "categoryId": "657764baa6238555266e7110",
+    "price": 49.99,
+    "tags": [
+      {
+        "name": "Python",
+        "isDeleted": false
+      },
+      {
+        "name": "Intermediate",
+        "isDeleted": false
+      },
+      {
+        "name": "Data Science",
+        "isDeleted": false
+      }
+    ],
+    "startDate": "2023-02-10",
+    "endDate": "2023-04-01",
+    "language": "English",
+    "provider": "Data Science Institute",
+    "details": {
+      "level": "Intermediate",
+      "description": "Explore the fundamentals of machine learning using Python. This course is designed for individuals with some programming experience."
+    }
+  },
+  {
+    "title": "Web Development Bootcamp",
+    "instructor": "Alex Johnson",
+    "categoryId": "6578d94030fa7cbd554505f5",
+    "price": 99.99,
+    "tags": [
+      { "name": "HTML", "isDeleted": false },
+      { "name": "CSS", "isDeleted": false },
+      { "name": "JavaScript", "isDeleted": false },
+      { "name": "Intermediate", "isDeleted": false }
+    ],
+    "startDate": "2023-03-15",
+    "endDate": "2023-05-01",
+    "language": "English",
+    "provider": "Code Masters",
+    "details": {
+      "level": "Intermediate",
+      "description": "This bootcamp covers HTML, CSS, and JavaScript for intermediate level web development."
+    }
+  },
+  {
+    "title": "Mobile App Development with React Native",
+    "instructor": "Emily Rodriguez",
+    "categoryId": "65772a74855a0b6e2c9ad918",
+    "price": 79.99,
+    "tags": [
+      { "name": "React Native", "isDeleted": false },
+      { "name": "JavaScript", "isDeleted": false },
+      { "name": "Advanced", "isDeleted": false }
+    ],
+    "startDate": "2023-04-10",
+    "endDate": "2023-06-01",
+    "language": "English",
+    "provider": "App Wizards",
+    "details": {
+      "level": "Advanced",
+      "description": "Learn advanced React Native techniques for building cross-platform mobile applications."
+    }
+  },
+  {
+    "title": "Data Science Essentials",
+    "instructor": "Dr. Maria Martinez",
+    "categoryId": "657764a0a6238555266e710e",
+    "price": 129.99,
+    "tags": [
+      { "name": "Python", "isDeleted": false },
+      { "name": "Data Science", "isDeleted": false },
+      { "name": "Beginner", "isDeleted": false }
+    ],
+    "startDate": "2023-05-20",
+    "endDate": "2023-07-15",
+    "language": "English",
+    "provider": "Data Insights",
+    "details": {
+      "level": "Beginner",
+      "description": "Introduction to essential concepts and tools in data science using Python."
+    }
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "instructor": "James Black",
+    "categoryId": "6578d94030fa7cbd554505f4",
+    "price": 89.99,
+    "tags": [
+      { "name": "Cybersecurity", "isDeleted": false },
+      { "name": "Security", "isDeleted": false },
+      { "name": "Intermediate", "isDeleted": false }
+    ],
+    "startDate": "2023-06-15",
+    "endDate": "2023-08-10",
+    "language": "English",
+    "provider": "SecureNet Academy",
+    "details": {
+      "level": "Intermediate",
+      "description": "Fundamental principles and techniques in cybersecurity for intermediate level practitioners."
+    }
+  }
+]
