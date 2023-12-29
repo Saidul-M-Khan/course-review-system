@@ -84,26 +84,6 @@ const changePassword = async (
     );
   }
 
-  // match new password with the passwords stored in passwordHistory
-  // const extractedPasswords = [];
-  // if (passwordHistory && passwordHistory.length > 0) {
-  //   for (const entry of passwordHistory) {
-  //     const passwordHistoryMatchCheck = await bcrypt.compare(
-  //       payload.newPassword,
-  //       entry.password,
-  //     );
-  //     if (passwordHistoryMatchCheck) {
-  //       extractedPasswords.push(entry.password);
-  //     }
-  //   }
-  //   if (extractedPasswords.length > 0) {
-  //     throw new AppError(
-  //       httpStatus.BAD_REQUEST,
-  //       `Password change failed. Ensure the new password is unique and not among the last 2 used (last used on ${passwordHistory[0]?.createdAt}).`,
-  //     );
-  //   }
-  // }
-
   const extractedPasswords = [];
   if (passwordHistory && passwordHistory.length > 0) {
     for (const entry of passwordHistory) {

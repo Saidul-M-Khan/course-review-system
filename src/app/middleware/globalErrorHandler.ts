@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { ErrorRequestHandler } from 'express';
+import httpStatus from 'http-status';
 import { ZodError } from 'zod';
 import AppError from '../errors/AppError';
 import handleMongooseCastError from '../errors/handleMongooseCastError';
@@ -39,6 +40,16 @@ const globalErrorHandler: ErrorRequestHandler = (err, req, res, next) => {
     statusCode = err?.statusCode;
     message = err?.message;
     errorMessage = err?.message;
+
+    if (statusCode === httpStatus.UNAUTHORIZED) {
+      return res.status(statusCode).json({
+        success: false,
+        message: 'Unauthorized Access',
+        errorMessage: err?.message,
+        errorDetails: null,
+        stack: null,
+      });
+    }
   } else if (err instanceof Error) {
     message = err?.message;
     errorMessage = err?.message;
